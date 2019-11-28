@@ -44,17 +44,17 @@ h1, h2, h3 {
 }
 .navigation {
     position: relative;
-    right: -640px;
+    right: -700px;
     top: -50px;
     z-index: 1;
 }
 .navigation li {
     list-style-type: none;
-    margin: 10px;
+    margin: 0px;
     padding: 0;
     display: inline;
 }
-.navigation li + li:before{
+.navigation li + li:before {
     content: " | ";
     padding: 0 10px;
     color: #cccccc;
