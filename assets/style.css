@@ -4,7 +4,7 @@ html, body {
     background-image: url("https://github.com/everetthumphreys/portfolio/blob/master/assets/images/triangle-mosaic.png?raw=true");
     background-repeat: repeat;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #666666;
+    color: #777777;
 }
 
 h1, h2, h3 {
@@ -44,7 +44,7 @@ h1, h2, h3 {
 }
 .navigation {
     position: relative;
-    right: -700px;
+    right: -640px;
     top: -50px;
     z-index: 1;
 }
@@ -54,9 +54,26 @@ h1, h2, h3 {
     padding: 0;
     display: inline;
 }
-.navigation li a {
+.navigation li + li:before{
+    content: " | ";
+    padding: 0 10px;
+    color: #cccccc;
+}
+.navigation li a:link {
     text-decoration: none;
-    color: 666666;
+    color: #666666;
+}
+.navigation li a:visited {
+    text-decoration: none;
+    color: #666666;
+}
+.navigation li a:hover {
+    text-decoration: none;
+    color: #666666;
+}
+.navigation li a:active {
+    text-decoration: none;
+    color: #666666;
 }
 .body-content {
     width: 920px;
