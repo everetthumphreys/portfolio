@@ -3,7 +3,7 @@
 This is my portfolio website that I designed to demonstrate the skills that I am picking up in the Coding Bootcamp.
 
 ### Installation
-Clone it to your PC and then open index.html in a web browser.
+Clone it to your PC and open index.html in a web browser.
 
 ### Credits
 Just me
