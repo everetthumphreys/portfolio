@@ -109,7 +109,7 @@ input[type=text] {
     padding:15px 20px 15px 10px; 
     margin: 10px 0px;
     border:1px solid #dddddd; 
-    width: 870px;
+    width: 890px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #666666;
     font-size: 15px;
@@ -127,7 +127,7 @@ textarea {
     padding:15px 20px 15px 10px; 
     margin: 10px 0px;
     border:1px solid #dddddd; 
-    min-width: 870px;
+    min-width: 890px;
     height: 150px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #666666;
