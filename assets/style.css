@@ -7,10 +7,11 @@ html, body {
     color: #777777;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
 }
+/* This is an invisible centered container that holds all my primary content. */
 .container {
     position: fixed;
     left: 50%;
@@ -19,14 +20,15 @@ h1, h2, h3 {
     width: 960px;
     height: 100%;
 }
+/* This is an invisible container that holds the logo and navigation. */
 .head {
     width: 100%;
     height: 170px;
     border: 2px #cccccc solid;
     background-color: #ffffff;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
 }
 #logo {
     position: relative;
@@ -69,7 +71,7 @@ h1, h2, h3 {
 }
 .navigation li a:hover {
     text-decoration: none;
-    color: #666666;
+    color: #4aaaa5;
 }
 .navigation li a:active {
     text-decoration: none;
@@ -83,19 +85,8 @@ h1, h2, h3 {
     border: 1px #dddddd solid;
     padding: 20px;
 }
-.sticky-footer {
-    border-top: 8px solid #4aaaa5;
-    background-color: #666666;
-    height: 40px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    color: #ffffff;
-    text-align: center;
-}
 hr {
-    color: #cccccc;
+    border: 1px solid #cccccc;
 }
 .body-content p {
     line-height: 28px;
@@ -122,17 +113,18 @@ input[type=submit] {
     color: #ffffff;
     margin-top: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
 }
 textarea {
     padding:15px 20px 15px 10px; 
     margin: 10px 0px;
     border:1px solid #dddddd; 
-    min-width: 890px;
     height: 150px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #666666;
     font-size: 15px;
-    max-width: 900px;
+    min-width: 890px;
+    max-width: 890px;
 }
 #portfolio-container {
     width: 500px;
@@ -155,4 +147,15 @@ textarea {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: center;
     padding-top: 5px;
+}
+.sticky-footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    text-align: center;
 }
