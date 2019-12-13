@@ -11,14 +11,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
 }
+.complete-container {
+    width: 100%;
+    height: 100%;
+}
 /* This is an invisible centered container that holds all my primary content. */
 .container {
-    position: fixed;
-    left: 50%;
-    margin-top: 0px;
-    margin-left: -480px;
     width: 960px;
     height: 100%;
+    margin: auto;
 }
 /* This is an invisible container that holds the logo and navigation. */
 .head {
@@ -26,13 +27,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 170px;
     border: 2px #cccccc solid;
     background-color: #ffffff;
-    position: fixed;
     top: 0px;
     left: 0px;
 }
 #logo {
     position: relative;
-    bottom: -35px;
+    bottom: 140px;
     z-index: 1;
 }
 #logo p {
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 .navigation {
     position: relative;
     right: -700px;
-    top: -50px;
+    top: -220px;
     z-index: 1;
 }
 .navigation li {
@@ -84,6 +84,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     border: 1px #dddddd solid;
     padding: 20px;
+    position: relative;
+    top: -175px;
 }
 hr {
     border: 1px solid #cccccc;
@@ -91,8 +93,8 @@ hr {
 .body-content p {
     line-height: 28px;
 }
-.body-content img {
-    width: 200px;
+#me {
+    width: 225px;
     float: left;
     padding: 15px;
 }
@@ -136,14 +138,14 @@ textarea {
     margin: 5px 20px;
     position: relative;
 }
-.portfolio-labels p{
+.portfolio-labels p {
     color: #ffffff;
     background-color: #4aaaa5;
     width: 200px;
     height: 35px;
-    position: absolute;
-    left: 15px;
-    top: 104px;
+    position: relative;
+    left: 0px;
+    top: -72px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: center;
     padding-top: 5px;
